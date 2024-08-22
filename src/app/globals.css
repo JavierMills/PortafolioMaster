@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  :root {
+    --background: 27 27 27;
+    --foreground: 225 225 225;
+    --muted: 115 115 115;
+    --accent: 254 254 91; 
+    /* #FEFE5B */
+  }
+}
+
+@layer utilities {
+ .pause{
+  animation-play-state: paused;
+ }
+ .costom-bg{
+  @apply bg-background/20 border border-accent/30 border-solid backdrop-blur-[3px] shadow-glass-inset hover:shadow-glass-sm
+ }
+
+}
+
+@keyframes move{
+  0%{
+    transform: translate(0,0);
+  }
+
+  100%{
+    transform: translate(100px,100px);
+    
+  }
+}
+
+@keyframes animate{
+  0%, 10%, 100%{
+    width: 0;
+  }
+  70%, 90%{
+    width: 100%;
+    
+  }
+}
