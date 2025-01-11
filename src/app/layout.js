@@ -3,6 +3,7 @@ import "./globals.css";
 import clsx from "clsx";
 import FireFliesBackground from "./components/FireFliesBackground";
 import BottonContact from "./components/BottonContact";
+import Sound from "./components/Sound";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -20,6 +21,8 @@ export default function RootLayout({ children }) {
       </div>
         {children}
         <FireFliesBackground></FireFliesBackground>
+        <Sound />
+        <div id='my-modal'/>
       </body>
     </html>
   );
