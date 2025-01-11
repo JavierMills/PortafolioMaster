@@ -6,8 +6,7 @@ const useScreenSize = () => {
     // manejamos el estado inicial 
     const [screenSize, setScreenSize] = useState();
 
-    console.log(screenSize, 'screenSize')
-    console.log(setScreenSize, 'setScreenSize')
+
 
     // creamos un efecto para manejar el estado inicial de el resice de la ventana 
     useEffect(() => {
