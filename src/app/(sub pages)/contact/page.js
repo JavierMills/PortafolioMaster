@@ -22,11 +22,10 @@ export default function Contact() {
         Ramiro Javier Martínez Cruz (fullstack developer).
         </h1>
            <p className="text-center font-light text-sm xs:text-base">
-           As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, 
-           showcasing my expertise in React.js, Angular, Docker, SalesForce, Appian, Typescript, 
-           Next.js, Jenkins, VeraCode, Tailwind, Boostrap, JavaScript, Node.js, Java, SpringBoot Framework, JSP, Arquitectura Agave, Dart, Flutter and web development."
+           As a skilled Senior software developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, 
+           showcasing my expertise in Angular, Microservicios, JAVA, SpringBoot, SpringFramework, ReactJs, Docker, SalesForce, Appian, Typescript, 
+           Next.js, Jenkins, VeraCode, Tailwind, Bootstrap, JavaScript, Node.js, JSP, Arquitectura Agave, Dart, Flutter and web development."
            </p>
-
         </div>
         <Form />
       </article>
