@@ -30,7 +30,7 @@ export default function Form() {
 
   const sendEmail = ( params ) => {
 
-const toastId = toast.loading('Sending your message, pleace wait...')
+const toastId = toast.loading('Sending your message, pleace wait...');
   
 //Funcion para mandar correo, limitado a mandar solo un correo cada 5 segundos
 
@@ -70,7 +70,6 @@ const toastId = toast.loading('Sending your message, pleace wait...')
       reply_to: data.email,
       message: data.message
     }
-
     sendEmail(sendParamsEmail);
   };
   
@@ -119,8 +118,6 @@ const toastId = toast.loading('Sending your message, pleace wait...')
       text-foreground focus:outline-none focus:ring-2 focus:ring-accent/50 cursor-pointer capitalize
       ' type="submit" />
     </motion.form>
-   <Toaster position="bottom-center" richColors={ true } />
-
    </>
   );
 }
